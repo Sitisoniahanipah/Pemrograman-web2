@@ -10,13 +10,14 @@
 </head>
 <body>
 <div class="container-fluid">
+    <h2>Belanja Online</h2>
+    <form action="from_hasil2.php" method="POST">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-6">
                     <br>
-                <h2>Belanja Online</h2>
-        <form action="from_hasil2.php" method="POST">
+<form>
   <div class="form-group row">
     <label for="customer" class="col-4 col-form-label">Customer</label> 
     <div class="col-8">
@@ -27,11 +28,7 @@
     <label class="col-4">Pilih Produk</label> 
     <div class="col-8">
       <div class="custom-control custom-radio custom-control-inline">
-<<<<<<< HEAD
-        <input name="produk" id="produk_0" type="radio" class="custom-control-input" value="TV" required="required">
-=======
         <input name="produk" id="produk_0" type="radio" class="custom-control-input" value="TV" required="required"> 
->>>>>>> 45c0295d1a91ae01aacada8c67c6f7c39378171d
         <label for="produk_0" class="custom-control-label">TV</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
@@ -43,18 +40,19 @@
         <label for="produk_2" class="custom-control-label">Mesin Cuci</label>
       </div>
     </div>
-  </div> 
+  </div>
   <div class="form-group row">
-    <label for="jumlah" class="col-4 col-form-label">Jumlah</label> 
+    <label for="juml" class="col-4 col-form-label">Jumlah</label> 
     <div class="col-8">
-      <input id="jumlah" name="jumlah" type="text" class="form-control" required="required">
+      <input id="juml" name="juml" type="text" required="required" class="form-control">
     </div>
   </div> 
   <div class="form-group row">
     <div class="offset-4 col-8">
       <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-   </div>
-</div>
+    </div>
+  </div>
+</form>
 				</div>
 				<div class="col-md-6">
                     <br>

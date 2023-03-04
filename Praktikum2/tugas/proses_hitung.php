@@ -1,9 +1,8 @@
-<?php 
+<?php
 // Mengambil data input
-$customer = $_POST['customer'];
+$cutomer = $_POST['customer'];
 $produk = $_POST['produk'];
-$jumlah = $_POST['jumlah'];
-
+$jumlah = $_POST['juml'];
 
     if ($produk == 'TV'){
         $total_harga = 4200000 * $jumlah;
@@ -12,9 +11,8 @@ $jumlah = $_POST['jumlah'];
     } elseif ($produk == 'Mesin Cuci'){
         $total_harga = 3800000 * $jumlah;
     } else {
-        $total_harga = '';
-    }
-
+        $total_harga ='';
+}
 
 
 ?>

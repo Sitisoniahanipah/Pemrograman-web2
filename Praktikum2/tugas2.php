@@ -27,7 +27,7 @@
     <label class="col-4">Pilih Produk</label> 
     <div class="col-8">
       <div class="custom-control custom-radio custom-control-inline">
-        <input name="produk" id="produk_0" type="radio" class="custom-control-input" value="TV " required="required"> 
+        <input name="produk" id="produk_0" type="radio" class="custom-control-input" value="TV" required="required">
         <label for="produk_0" class="custom-control-label">TV</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
